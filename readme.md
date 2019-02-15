@@ -28,6 +28,10 @@ heroku create xxxxx : create new app service on heroku
 heroku logs : dispatch logs from heroku
 heroku update : update heroku
 
+heroku config : manage config
+heroku config:set (key=xxxx): set key pair in config
+heroku config:unset (only Key) : remove key pair in config
+
 # node.js 
 node server/server.js : run node.js files (express.js server here)
 
