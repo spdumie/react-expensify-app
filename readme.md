@@ -36,6 +36,7 @@ heroku config:unset (only Key) : remove key pair in config
 node server/server.js : run node.js files (express.js server here)
 
 # SSH
+ssh-add ~/.ssh/id_rsa : access to GitHub by passphrase
 ssh -T git@github.com : authenticate on GitHub
 
 
