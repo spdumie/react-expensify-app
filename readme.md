@@ -27,6 +27,7 @@ heroku login : loggin in to heroku (via web browser)
 heroku create xxxxx : create new app service on heroku
 heroku logs : dispatch logs from heroku
 heroku update : update heroku
+heroku open : open the pushed service in browser
 
 heroku config : manage config
 heroku config:set (key=xxxx): set key pair in config
